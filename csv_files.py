@@ -10,6 +10,7 @@ def create_file(filename):
     file.write("iris,blue,perennial\n")
     file.write("poinsettia,red,perennial\n")
     file.write("sunflower,yellow,annual\n")
+    rile.write("Rain,grey,annual\n")
 
 # Read the file contents and format the information about each row
 def contents_of_file(filename):
