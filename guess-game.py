@@ -7,6 +7,7 @@ while True:
         print("Error!! Please input an integer.")
     elif user_number == random_number:
         print("Correct! You guessed the right number.")
+        break
     elif user_number > random_number:
         print("Too High!!")
     else:
